@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Rumble Downloader",
+  "description": "Download videos from Rumble platform.",
+  "version": "1.0",
+  "icons": {
+    "96": "icon/rumble.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "main.js"
+      ],
+      "matches": [
+        "https://rumble.com/*"
+      ]
+    }
+  ]
+}
